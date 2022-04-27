@@ -1,0 +1,22 @@
+{
+  "name": "week-1-bootcamp",
+  "version": "1.0.0",
+  "description": "Apprenticeship",
+  "main": "airportclasses.js",
+  "scripts": { "test": "jest", "test:report": "jest --coverage=true" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinChalkright/Apprenticeship1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinChalkright/Apprenticeship1/issues"
+  },
+  "homepage": "https://github.com/AustinChalkright/Apprenticeship1#readme",
+  "dependencies": {
+    "jest": "^28.0.2"
+  }
+}
+
