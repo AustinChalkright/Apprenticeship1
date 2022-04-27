@@ -1,3 +1,4 @@
+
 class Bag {
     constructor(weight) {
         this.weight = weight
@@ -62,3 +63,5 @@ if(!austinsCabinBag.isOverLimit()){
 if(!austinsHullBag.isOverLimit()){
     austin.addBag(austinsHullBag);
 }
+
+module.exports = Bag, Passenger, Airport, Plane, crewMember
