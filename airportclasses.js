@@ -64,4 +64,26 @@ if(!austinsHullBag.isOverLimit()){
     austin.addBag(austinsHullBag);
 }
 
-module.exports = Bag, Passenger, Airport, Plane, crewMember
+class Runway {
+    static maxPlanesOnRunway = 25;
+    static planesOnRunway = [];
+    constructor(name, location, destination) {
+        this.name = name
+        this.location = location
+        this.destination = destination
+    }
+    addPlane(Plane) {
+        Runway.planesOnRunway.push(Plane)
+    }
+
+}
+
+
+
+
+
+
+
+
+
+module.exports = Bag, Passenger, Airport, Plane, crewMember, Runway
